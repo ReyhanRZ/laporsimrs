@@ -1,19 +1,3 @@
-/*
- Navicat Premium Dump SQL
-
- Source Server         : db_wa_helpdesk
- Source Server Type    : PostgreSQL
- Source Server Version : 160014 (160014)
- Source Host           : 10.100.1.220:5432
- Source Catalog        : db_aplikasi
- Source Schema         : public
-
- Target Server Type    : PostgreSQL
- Target Server Version : 160014 (160014)
- File Encoding         : 65001
-
- Date: 09/09/2026 11:51:09
-*/
 
 
 -- ----------------------------
