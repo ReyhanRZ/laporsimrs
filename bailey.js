@@ -98,7 +98,7 @@ pool.query("SELECT NOW()", (err, res) => {
 // ================================================================
 // Konstanta & state global
 // ================================================================
-const GRUP_NOTIF = "120363427645273225@g.us";
+const GRUP_NOTIF = "@g.us";
 const UPLOAD_DIR = path.join(__dirname, "upload");
 const AUTH_DIR = "./auth_info";
 
