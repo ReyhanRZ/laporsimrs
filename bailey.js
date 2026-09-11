@@ -83,11 +83,11 @@ const upload = multer({ storage: multer.memoryStorage() });
 // Database
 // ================================================================
 const pool = new Pool({
-  user: "postgres",
-  host: "10.100.1.220",
-  database: "db_aplikasi",
-  password: "tanyadokterucu",
-  port: 5432,
+  user: "",
+  host: "",
+  database: "",
+  password: "",
+  port: ,
 });
 pool.on("error", (err) => console.error("[DB] Error:", err.message));
 pool.query("SELECT NOW()", (err, res) => {
