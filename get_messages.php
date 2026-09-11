@@ -1,11 +1,11 @@
 <?php
 header('Content-Type: application/json');
 
-$host     = "10.100.1.220";
-$port     = "5432";
-$dbname   = "db_aplikasi";
-$user     = "postgres";
-$password = "tanyadokterucu";
+$host     = "";
+$port     = "";
+$dbname   = "";
+$user     = "";
+$password = "";
 
 $dbconn = pg_connect("host=$host port=$port dbname=$dbname user=$user password=$password");
 if (!$dbconn) {
