@@ -689,20 +689,20 @@
 pdfjsLib.GlobalWorkerOptions.workerSrc =
     'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 
-const SERVER_IP   = '10.100.1.220';
-const WA_BOT_PORT = 8000;
+const SERVER_IP   = '';
+const WA_BOT_PORT = ;
 let PER_PAGE      = 10; // bisa diubah user
 // Nomor tujuan kirim WA (tanpa + tanpa 0 di depan, format internasional)
-const WA_TARGET   = '6289504683778';
+const WA_TARGET   = '';
 
 const DIVISI_COLOR = ['primary','success','warning','danger','info','secondary'];
 const DIVISI_DOT   = ['#0d6efd','#198754','#ffc107','#dc3545','#0dcaf0','#6c757d'];
 
 const PJ_MAP = {
-    'hardware'     : { nama: 'Riky',    jabatan: 'PJ Hardware' },
-    'software'     : { nama: 'Husaeni', jabatan: 'PJ Software' },
-    'jaringan'     : { nama: 'Zen',     jabatan: 'PJ Jaringan' },
-    'implementasi' : { nama: 'Sobari',  jabatan: 'PJ Implementasi' },
+    'hardware'     : { nama: '',    jabatan: 'PJ Hardware' },
+    'software'     : { nama: '', jabatan: 'PJ Software' },
+    'jaringan'     : { nama: '',     jabatan: 'PJ Jaringan' },
+    'implementasi' : { nama: '',  jabatan: 'PJ Implementasi' },
 };
 
 let allData      = [];
@@ -1507,7 +1507,7 @@ function exportExcel() {
         aoa.push(rowTtd(null, ''));
         aoa.push(rowTtd(null, ''));
         aoa.push(rowTtd(null, ''));
-        aoa.push(rowTtd(null, 'dr. Ucu Nurhadiat'));
+        aoa.push(rowTtd(null, 'dr.  '));
         aoa.push(rowTtd(null, 'Kepala Instalasi IT'));
     }
 
